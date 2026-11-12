@@ -16,7 +16,7 @@ https://www.alsacreations.com/article/lire/1989-Les-failles-XSS.html
 ce site explique en quoi l'utilisation de htmlspecialchars() est plus adapté plutôt que de directement utiliser un echo
 
 mauvaise pratique:
-echo ($player['pseudo'],ENT_QUOTES,'UTF-8')
+echo ($player['pseudo']) > Pas de parametres ent_quotes & utf car ce sont des options de htmlspecialchars
 
 bonne pratique :
 echo htmlspecialchars($player['pseudo'],ENT_QUOTES,'UTF-8')
