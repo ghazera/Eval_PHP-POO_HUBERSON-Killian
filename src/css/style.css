@@ -1,0 +1,69 @@
+/* styledu body */
+body {
+    font-family: Arial,sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+}
+
+/* header */
+header {
+    background-color: grey;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/*main */
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* formulaire */
+form {
+    border: 1px solid #ccc;
+    padding: 15px;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input,
+select {
+    display: block;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type='submit'] {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* <li> pour les éléments de liste*/
+li {
+    margin-bottom: 10px;
+}
+
+/* pied de la page */
+footer {
+    text-align: center;
+    color: #666;
+    padding: 20px;
+}
